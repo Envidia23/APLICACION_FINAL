@@ -6,7 +6,7 @@ import geopandas as gpd
 from frontend.main import layout as main_layout
 from backend.calculoinundacion import consultarDepartamento, departamentos
 
-# Leer el archivo de colegios fuera de la función de la aplicación
+# Leer el archivo de colegios
 colegios = gpd.read_file('C:\\Andres\\universidad\\INGENIERIA\\PROGRMACION 2\\APLICACION 4.0\\ejercicio\\EstablecimientosEducativos.zip')
 
 # Inicializar la aplicación Dash
